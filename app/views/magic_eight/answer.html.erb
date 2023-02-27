@@ -1,3 +1,13 @@
+<style>
+    .topnav-right {
+    float: right;
+  }
+</style>
+
+<nav class="topnav-right">
+  <p><%= link_to "Ask Another Question!", "/home" %> </p>
+</nav>
+
 <h1> Magik 8 Ball </h1>
 
-<h3> </h3>
+<h3>Answer is <%=@answer.response%> </h3>

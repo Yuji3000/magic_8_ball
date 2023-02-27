@@ -2,7 +2,6 @@
 
 <h3> Ask the Magik 8 Ball a question</h3>
 <%= form_with url: '/answer', method: :get, local: true do |f| %>
-  <%= f.label :pseudo %>
   <%= f.text_field :pseudo, placeholder: 'Write Question Here' %>
   <%= f.submit 'Shake ball to reveal answer' %>
 <% end %>

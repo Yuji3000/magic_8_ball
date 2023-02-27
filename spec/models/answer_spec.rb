@@ -33,7 +33,7 @@ RSpec.describe Answer, type: :model do
     end
     describe 'random_answer' do
       it "gets a random selection out of answers" do
-        require "pry"; binding.pry
+        # require "pry"; binding.pry
         expect(Answer.random_answer).to be_a(Answer)
       end
     end

@@ -4,6 +4,6 @@ class MagicEightController < ApplicationController
   end
 
   def answer
-    # @answer = Answer.random_answer #create model method & test
+    @answer = Answer.random_answer 
   end
 end
